@@ -5,6 +5,8 @@ imports:
     - { resource: sonata/sonata_admin.yml }
     - { resource: sonata/sonata_block.yml }
     - { resource: sonata/sonata_user.yml }
+    # admin
+    - { resource: "@ApplicationMainBundle/Resources/config/admin.yml" }
 
 framework:
     #esi:             ~
