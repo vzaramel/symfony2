@@ -10,7 +10,6 @@ class DefaultController extends Controller
     {
         var_dump($name);
 
-        echo "2"
         return $this->render('ApplicationMainBundle:Default:index.html.twig', array('name' => $name));
     }
 }
